@@ -57,6 +57,11 @@ lspconfig['html'].setup({
 	on_attach = on_attach
 })
 
+lspconfig['tsserver'].setup({
+	capabilities = capabilities,
+	on_attach = on_attach
+})
+
 lspconfig['cssls'].setup({
 	capabilities = capabilities,
 	on_attach = on_attach
