@@ -66,5 +66,9 @@ require("lazy").setup({
 	},
 	{
 		'm4xshen/autoclose.nvim',
-	}
+	},
+    {
+        'stevearc/dressing.nvim',
+        opts = {},
+    }
 })
