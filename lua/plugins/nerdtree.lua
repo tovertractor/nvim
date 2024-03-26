@@ -7,3 +7,6 @@ vim.api.nvim_exec('autocmd VimEnter * NERDTree | wincmd p', true)
 
 --show lines in file
 vim.api.nvim_set_var('NERDTreeFileLines', 1)
+
+--show hidden files
+vim.g.NERDTreeShowHidden=1
